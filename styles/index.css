@@ -1,0 +1,146 @@
+body {
+    width: 100%;
+    background: #E5E5E5;
+}
+
+.container__grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: repeat(2, 2fr);
+    grid-gap: 10px;
+    position: relative;
+    width: 1400px;
+    height: 900px;
+    background: #FFFFFF;
+    box-shadow: 4px, 4px, 12px black;
+    padding: 15px;
+}
+
+.rect-1 {
+    position: absolute;
+    width: 448px;
+    height: 195px;
+    left: 24px;
+    top: 24px;
+    background: #007F5F;
+}
+
+.rect-2 {
+    position: absolute;
+    width: 448px;
+    height: 195px;
+    left: 24px;
+    top: 243px;
+    background: #2B9348;
+}
+
+.rect-3 {
+    position: absolute;
+    width: 448px;
+    height: 268px;
+    left: 24px;
+    top: 462px;
+    background: #55A630;
+}
+
+.rect-4 {
+    position: absolute;
+    width: 448px;
+    height: 414px;
+    left: 496px;
+    top: 24px;
+    background: #80B918;
+}
+
+.rect-5 {
+    position: absolute;
+    width: 212px;
+    height: 122px;
+    left: 496px;
+    top: 462px;
+    background: #AACC00;
+}
+
+.rect-6 {
+    position: absolute;
+    width: 212px;
+    height: 122px;
+    left: 496px;
+    top: 608px;
+
+    background: #BFD200;
+
+}
+
+.rect-7 {
+    position: absolute;
+    width: 448px;
+    height: 122px;
+    left: 968px;
+    top: 24px;
+
+    background: #DDDF00;
+
+}
+
+.rect-8 {
+    position: absolute;
+    width: 448px;
+    height: 122px;
+    left: 968px;
+    top: 170px;
+
+    background: #EEEF20;
+
+}
+
+.rect-9 {
+    position: absolute;
+    width: 448px;
+    height: 122px;
+    left: 968px;
+    top: 316px;
+    background: #FFFF3F;
+
+}
+
+.rect-10 {
+    position: absolute;
+    width: 448px;
+    height: 268px;
+    left: 732px;
+    top: 462px;
+    background: #D4D700;
+}
+
+.rect-11 {
+    position: absolute;
+    width: 212px;
+    height: 268px;
+    left: 1204px;
+    top: 462px;
+    background: #007F5F;
+}
+
+.rect-12 {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+    width: 1400px;
+    height: 146px;
+    left: 0px;
+    top: 754px;
+    background: #9BC1BC;
+}
+
+.text {
+    width: 649px;
+    height: 78px;
+    top: 788px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    color: #000000;
+}
